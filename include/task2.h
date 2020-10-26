@@ -20,7 +20,6 @@ int averageArr(T& a, int b)
 	{
 		sum += a[i];
 	}
-	cout << sum;
 	return(sum / b);
 }
 #endif 
