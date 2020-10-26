@@ -1,12 +1,11 @@
-template <typename T>
-T minArr(T &arr)
+template <typename T, size_t n>
+T minArr(T (&arr)[n])
 {
 	T min = 9999999;
-	T* p = &arr;
-	for (int i = 0; i < sizeof(arr); i++)
+	for (int i = 0; i < n; i++)
 	{
-		if (p[i] < min)
-			min = p[i];
+		if (arr[i] < min)
+			min = arr[i];
 	}
 	return min;
 }
