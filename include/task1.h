@@ -11,7 +11,7 @@ template<typename T> bool less(T a, T b) {
 }
 
 template <> bool less <const char*>(const char* a, const char* b) {
-	if (strcmp(str(a), str(b)) != -1)
+	if (strcmp(a, b) != -1)
 		return false;
 	return true;
 }
