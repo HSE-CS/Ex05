@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 int main()
 {
 	const size_t n = 6;
