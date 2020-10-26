@@ -17,7 +17,7 @@ int main()
 	const char* str2 = "abcb";
 	result = ::less(str1, str2);
 	cout << result << endl;
-
+	
 	return 0;
 
 }

@@ -16,18 +16,38 @@ using namespace std;
 
 typedef const char* stroka;
 
+
 template <typename T>
-bool less(T& a, T& b)
+bool less(T a, T b)
 {
+	if (a < b) return true;
+	else return false;
+
+}
+template<>
+bool less<char*>(char* a, char* b)
+{
+	if (strcmp(a, b) == 0) return false;
+	if (strcmp(a, b) == 1) return false;
+	else return true;
+
+}
+/*
+template <typename T>
+bool less(T a, T b)
+{
+
 	if (typeid(T) == typeid(stroka))
 	{
-		if (strcmp((stroka)a, (stroka)b) == 1)
+		if (strcmp(a, b) == 1)
 			return false;
-		else if (strcmp((stroka)a, (stroka)b) == 0)
+		else if (strcmp(a, b) == 0)
 			return false;
 		else return true;
 	}
 	else if (a < b) return true;
 		else return false;
 }
+*/
+
 #endif
