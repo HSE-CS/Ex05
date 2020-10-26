@@ -7,13 +7,13 @@
 
 #include <string>
 
-template<class T>
+template<typename T>
 bool less(T arg1, T arg2){
     return arg1 < arg2;
 }
 
-template<typename T>
-bool less(const T arg1, const T arg2){
+template<>
+bool less<const char *>(const char * arg1, const char * arg2){
     return strcmp(arg1, arg2) < 0;
 }
 
