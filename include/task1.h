@@ -12,7 +12,7 @@ template<typename T> bool less(T a, T b) {
 	}
 }
 
-template <> bool less <const char*>(const char* a, const char* b) {
+template <> bool less <char*>(char* a, char* b) {
 		return strcmp(a, b) < 0;
 }
 
