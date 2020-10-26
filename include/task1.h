@@ -3,6 +3,7 @@
 
 #include <cstring>
 #include <string>
+#include <string.h>
 
 template<typename T> bool less(T a, T b) {
 	if (a < b) {

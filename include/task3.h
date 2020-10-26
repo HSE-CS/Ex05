@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-template<typename T> T minArr(T (&array)[n]) {
+template<typename T, size_t n> T minArr(T (&array)[n]) {
 	
 	size_t size = sizeof(array) / sizeof(array[0]);
 	//std::cout << size << std::endl;
