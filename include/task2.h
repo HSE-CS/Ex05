@@ -10,8 +10,7 @@
 template <typename T>
 float averageArr(const T * array, int size){
     float sum = 0.;
-    for (size_t i = 0; i < size; ++i)
-        sum += array[i];
+    for (size_t i = 0; i < size; ++i) sum += array[i];
     return sum / size;
 }
 
