@@ -17,8 +17,8 @@ using namespace std;
 typedef const char* stroka;
 
 
-template <typename T>
-bool less(T a, T b)
+template <typename t>
+bool less(t a, t b)
 {
 	if (a < b) return true;
 	else return false;
@@ -32,6 +32,7 @@ bool less<char*>(char* a, char* b)
 	else return true;
 
 }
+
 /*
 template <typename T>
 bool less(T a, T b)
