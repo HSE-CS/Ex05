@@ -7,10 +7,11 @@
 
 #include <iostream>
 
-template <typename T>
-float minArr(const T * array){
-    float result_min = 0.;
-    for (size_t i = 0; i < sizeof(array); ++i) if (array[i] < result_min) result_min = array[i];
+template <typename T, auto n>
+T minArr(T (&array)[n]){
+    int result_min = {INT_MAX};
+    for (auto i = 0; i < sizeof(array); ++i) if (array[i] < result_min) result_min = array[i];
+//    for (size_t i = 0; i < sizeof(array); ++i) if (array[i] < result_min) result_min = array[i];
     return result_min;
 }
 
