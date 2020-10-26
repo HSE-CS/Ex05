@@ -33,6 +33,7 @@ TEST(ex05, task2_1)
 	int result = Ex05::averageArr(val, n);
 	int expected = 2;
 	EXPECT_EQ(expected, result);
+
 }
 
 // task3
