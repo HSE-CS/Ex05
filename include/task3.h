@@ -2,6 +2,7 @@
 #define TASK3_H
 
 #include <string>
+#include <typeinfo>
 #include <iostream>
 #include <cmath>
 #include <algorithm>
