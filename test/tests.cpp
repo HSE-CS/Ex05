@@ -29,10 +29,10 @@ TEST(ex05, task1_2)
 TEST(ex05, task2_1)
 {
 	const size_t n = 6;
-		int val[n]{ 4, 3, 2, 2, 2, -1 };
+	int val[n]{ 4, 3, 2, 2, 2, -1 };
 	int result = Ex05::averageArr(val, n);
-	int expected = 2;
-	EXPECT_EQ(expected, result);
+	      int expected = 2;
+	      EXPECT_EQ(expected, result);
 }
 
 // task3
