@@ -5,7 +5,7 @@ template<typename T, typename T2> T averageArr(T* arr, T2 n) {
 	
 	T average = { 0 };
 
-	for (size_t i = 0; i < n; ++i) {
+	for (unsigned i = 0; i < n; ++i) {
 		average += arr[i];
 	}
 	return average/n;
