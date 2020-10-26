@@ -6,6 +6,7 @@
 #include <string.h>
 #include <algorithm>
 
+
 template<typename T> bool less(T a, T b) {
 	if (a < b) {
 		return true;
@@ -15,9 +16,13 @@ template<typename T> bool less(T a, T b) {
 	}
 }
 
-template <> bool less <char*>(char* a, char* b) {
-		return strcmp(a, b) < 0;
+template<>bool less <char*>(char* a, char* b) {
+	if (strcmp(a, b) < 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
-
 
 #endif
