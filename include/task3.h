@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-const size_t n = { 6 };
-
 template<typename T> T minArr(T (&array)[n]) {
 	
 	size_t size = sizeof(array) / sizeof(array[0]);

@@ -1,6 +1,7 @@
 #include "task3.h"
 #include <iostream>
 
+#define n 6 
 
 int main() {
 

@@ -1,8 +1,6 @@
 #ifndef TASK2_H
 #define TASK2_H
 
-const size_t n = { 10 };
-
 template <typename T> T averageArr(T (&array)[n], size_t n) {
 	
 	T average = { 0 };
