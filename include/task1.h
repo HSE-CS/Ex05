@@ -21,9 +21,9 @@ bool less(T& a, T& b)
 {
 	if (typeid(T) == typeid(stroka))
 	{
-		if (strcmp(stroka(a), stroka(b)) == 1)
+		if (strcmp((stroka)a, (stroka)b) == 1)
 			return false;
-		else if (strcmp(stroka(a), stroka(b)) == 0)
+		else if (strcmp((stroka)a, (stroka)b) == 0)
 			return false;
 		else return true;
 	}
