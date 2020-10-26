@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 
 template <typename T, size_t n>
 T minArr(T (& arr)[n])
