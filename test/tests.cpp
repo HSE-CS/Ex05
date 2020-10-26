@@ -31,7 +31,7 @@ TEST(ex05,task2_1)
 	const size_t n = 6;
 	int val[n]{4, 3, 2, 2, 2, -1};
 	int result=Ex05::averageArr(val, n);
-        int expected=6;
+        int expected=2;
         EXPECT_EQ(expected, result);
 }
 
