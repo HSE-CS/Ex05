@@ -7,7 +7,7 @@ template<typename T> T minArr(T& array) {
 
 	size_t size = sizeof(array) / sizeof(array[0]);
 	//std::cout << size << std::endl;
-	T min = 1000000;
+	unsigned min = 1000000;
 	for (size_t i = 0; i<size; i++) {
 		if (array[i] <= min) {
 			min = array[i];
