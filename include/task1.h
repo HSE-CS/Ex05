@@ -1,7 +1,7 @@
 #include <string.h>
 #include <string>
 
-tempalate <class T>
+template <class T>
 bool less(T a, T b)
 {
 
