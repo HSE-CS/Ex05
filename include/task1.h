@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm>
+#include <string.h>
 #include <string>
 
 template <typename T>
