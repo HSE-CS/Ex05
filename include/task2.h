@@ -1,7 +1,7 @@
 #ifndef TASK2_H
 #define TASK2_H
 
-template <typename T> T averageArr(T* array, size_t n) {
+template <typename T> T averageArr(T& array, size_t n) {
 	
 	T average = { 0 };
 
