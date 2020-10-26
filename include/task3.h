@@ -9,7 +9,7 @@ template<class T> T minArr(T& array) {
 	//std::cout << size << std::endl;
 	unsigned min = INT_MAX;
 	for (size_t i = 0; i<size; i++) {
-		if (array[i] <= min) {
+		if (array[i] < min) {
 			min = array[i];
 		}
 	}
