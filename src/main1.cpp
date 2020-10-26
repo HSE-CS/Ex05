@@ -1,19 +1,29 @@
 #include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 #include "task1.h"
 
 
-template <class T>
-T Less(T a, T b)
-{
-	if (a < b) return true;
+template <class Type> bool less(Type a, Type b){
+	if (a < b) {
+		return true;
+	}
+	return false;
 }
 
-int main()
-{
-	int i1=1, i2=9;
-	cout << Less(i1, i2) << "\n"<<endl;	
-	char c1 = 'f', c2 = 'q';
-	cout << Less(c1, c2) << "\n";
+template<> bool less<const char*>(const char* a, const char* b){
+	if (strcmp(a, b) < 0 ){
+		return false;
+	}
+	else return true;
+}
+
+int main(){
+	std::cout << less(1,3) << "\n" << std ::endl;	
+	std::cout << less('a', 'b') << "\n" << std::endl;
+	const char* str1 = "abba";
+	const char* str2 = "baab";
+	std::cout << less(str1, str2) << "\n" << std::endl;
+
 	return 0;
 }
