@@ -1,6 +1,12 @@
 #include "task1.h"
 
-
+#include <typeinfo>
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
+#include <iterator>
 using namespace std;
 
 
