@@ -17,27 +17,16 @@ using namespace std;
 typedef const char* stroka;
 
 template <typename T>
-bool less1(T& a, T& b)
+bool less(T& a, T& b)
 {
 	if (typeid(T) == typeid(stroka))
 	{
-		while ((a) && (b))
-		{
-			if (a < b)
-				return true;
-
-			if (a > b)
-				return false;
-
-			if (a == b)
-			{
-				a++;
-				b++;
-			}
-
-		}
+		if (strcmp(stroka(a), stroka(b)) == 1)
+			return false;
+		else if (strcmp(stroka(a), stroka(b)) == 0)
+			return false;
+		else return true;
 	}
-
 	else if (a < b) return true;
 		else return false;
 }
