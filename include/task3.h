@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+
 
 template <typename T, size_t n>
 T minArr(T (& arr)[n])
