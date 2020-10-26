@@ -3,11 +3,13 @@
 
 #include <iostream>
 
-template<typename T> T minArr(T* array) {
+const size_t n = { 6 };
 
+template<typename T> T minArr(T (&array)[n]) {
+	
 	size_t size = sizeof(array) / sizeof(array[0]);
 	//std::cout << size << std::endl;
-	unsigned min = INT_MAX;
+	T min = INT_MAX;
 	for (size_t i = 0; i<size; i++) {
 		if (array[i] <= min) {
 			min = array[i];
