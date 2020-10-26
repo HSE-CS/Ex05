@@ -7,11 +7,10 @@
 
 #include <iostream>
 
-template <typename T, auto n>
+template <typename T, size_t n>
 T minArr(T (&array)[n]){
     int result_min = {INT_MAX};
-    for (auto i = 0; i < sizeof(array); ++i) if (array[i] < result_min) result_min = array[i];
-//    for (size_t i = 0; i < sizeof(array); ++i) if (array[i] < result_min) result_min = array[i];
+    for (size_t i = {0}; i < sizeof(array)/sizeof(array[0]); ++i) if (array[i] < result_min) result_min = array[i];
     return result_min;
 }
 
