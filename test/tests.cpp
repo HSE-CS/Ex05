@@ -44,4 +44,3 @@ TEST(ex05,task3_1)
         int expected=-1;
         EXPECT_EQ(expected, result);
 }
-
