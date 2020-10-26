@@ -5,8 +5,8 @@
 
 int main()
 {
-	std:: string str1 = "asde";
-	std:: string str2 = "asded";
+	char str1[] = "asde";
+	char str2[] = "asded";
 	
 	if (less(str1,str2) == true)
 	{

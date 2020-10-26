@@ -17,13 +17,13 @@ bool less(T a, T b)
 }
 template<>bool less<char*>(char* a, char* b)
 {
-	if (strcmp(a, b) < 0)
+	if (strcmp(a, b) >= 0)
 	{
-		return true;
+		return false;
 	}
 	else
 	{
-		return false;
+		return true;
 	}
 
 }
