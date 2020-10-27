@@ -9,8 +9,9 @@ int main() {
 	std::cout << f;
 
 
-	int a = 15, b = 6;
+	a = 15, b = 6;
 	f = less(a, b);
 	std::cout << f;
+
 	return 0;
 }
