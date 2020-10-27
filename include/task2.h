@@ -1,7 +1,3 @@
-#include <string.h>
-#include <string>
-
-
 template<class T>
 double averageArr(T *a, int size)
 {
