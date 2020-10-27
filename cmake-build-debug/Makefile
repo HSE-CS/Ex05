@@ -183,7 +183,6 @@ src\main2.obj: src\main2.cpp.obj
 
 # target to build an object file
 src\main2.cpp.obj:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main2.cpp.obj
 	$(MAKE) -f CMakeFiles\task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task2.dir\src\main2.cpp.obj
 .PHONY : src\main2.cpp.obj
 
@@ -193,7 +192,6 @@ src\main2.i: src\main2.cpp.i
 
 # target to preprocess a source file
 src\main2.cpp.i:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main2.cpp.i
 	$(MAKE) -f CMakeFiles\task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task2.dir\src\main2.cpp.i
 .PHONY : src\main2.cpp.i
 
@@ -203,7 +201,6 @@ src\main2.s: src\main2.cpp.s
 
 # target to generate assembly for a file
 src\main2.cpp.s:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main2.cpp.s
 	$(MAKE) -f CMakeFiles\task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task2.dir\src\main2.cpp.s
 .PHONY : src\main2.cpp.s
 
@@ -213,7 +210,6 @@ src\main3.obj: src\main3.cpp.obj
 
 # target to build an object file
 src\main3.cpp.obj:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main3.cpp.obj
 	$(MAKE) -f CMakeFiles\task3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task3.dir\src\main3.cpp.obj
 .PHONY : src\main3.cpp.obj
 
@@ -223,7 +219,6 @@ src\main3.i: src\main3.cpp.i
 
 # target to preprocess a source file
 src\main3.cpp.i:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main3.cpp.i
 	$(MAKE) -f CMakeFiles\task3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task3.dir\src\main3.cpp.i
 .PHONY : src\main3.cpp.i
 
@@ -233,7 +228,6 @@ src\main3.s: src\main3.cpp.s
 
 # target to generate assembly for a file
 src\main3.cpp.s:
-	$(MAKE) -f CMakeFiles\task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1.dir\src\main3.cpp.s
 	$(MAKE) -f CMakeFiles\task3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task3.dir\src\main3.cpp.s
 .PHONY : src\main3.cpp.s
 

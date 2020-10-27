@@ -77,59 +77,17 @@ CMakeFiles\task1.dir\src\main1.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\task1.dir\src\main1.cpp.s /c "C:\Disk_D\My projects\C++\Ex05\src\main1.cpp"
 <<
 
-CMakeFiles\task1.dir\src\main3.cpp.obj: CMakeFiles\task1.dir\flags.make
-CMakeFiles\task1.dir\src\main3.cpp.obj: ..\src\main3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Disk_D\My projects\C++\Ex05\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task1.dir/src/main3.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\task1.dir\src\main3.cpp.obj /FdCMakeFiles\task1.dir\ /FS -c "C:\Disk_D\My projects\C++\Ex05\src\main3.cpp"
-<<
-
-CMakeFiles\task1.dir\src\main3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/main3.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\task1.dir\src\main3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Disk_D\My projects\C++\Ex05\src\main3.cpp"
-<<
-
-CMakeFiles\task1.dir\src\main3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/main3.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\task1.dir\src\main3.cpp.s /c "C:\Disk_D\My projects\C++\Ex05\src\main3.cpp"
-<<
-
-CMakeFiles\task1.dir\src\main2.cpp.obj: CMakeFiles\task1.dir\flags.make
-CMakeFiles\task1.dir\src\main2.cpp.obj: ..\src\main2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Disk_D\My projects\C++\Ex05\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task1.dir/src/main2.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\task1.dir\src\main2.cpp.obj /FdCMakeFiles\task1.dir\ /FS -c "C:\Disk_D\My projects\C++\Ex05\src\main2.cpp"
-<<
-
-CMakeFiles\task1.dir\src\main2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/main2.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\task1.dir\src\main2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Disk_D\My projects\C++\Ex05\src\main2.cpp"
-<<
-
-CMakeFiles\task1.dir\src\main2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/main2.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\task1.dir\src\main2.cpp.s /c "C:\Disk_D\My projects\C++\Ex05\src\main2.cpp"
-<<
-
 # Object files for target task1
 task1_OBJECTS = \
-"CMakeFiles\task1.dir\src\main1.cpp.obj" \
-"CMakeFiles\task1.dir\src\main3.cpp.obj" \
-"CMakeFiles\task1.dir\src\main2.cpp.obj"
+"CMakeFiles\task1.dir\src\main1.cpp.obj"
 
 # External object files for target task1
 task1_EXTERNAL_OBJECTS =
 
 task1.exe: CMakeFiles\task1.dir\src\main1.cpp.obj
-task1.exe: CMakeFiles\task1.dir\src\main3.cpp.obj
-task1.exe: CMakeFiles\task1.dir\src\main2.cpp.obj
 task1.exe: CMakeFiles\task1.dir\build.make
 task1.exe: CMakeFiles\task1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Disk_D\My projects\C++\Ex05\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable task1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Disk_D\My projects\C++\Ex05\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task1.exe"
 	"C:\Disk_D\Programs\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\task1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\task1.dir\objects1.rsp @<<
  /out:task1.exe /implib:task1.lib /pdb:"C:\Disk_D\My projects\C++\Ex05\cmake-build-debug\task1.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
