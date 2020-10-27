@@ -7,9 +7,9 @@ int main()
 {
 	int a = 0;
 	int b = 5;
-	cout << Less((char*)("aaa"), (char*)("aab")) << endl;
-	cout << Less(a, b) << endl;
-	cout << Less(0.6, 0.5) << endl;
+	cout << Ex05::less((char*)("aaa"), (char*)("aab")) << endl;
+	cout << Ex05::less(a, b) << endl;
+	cout << Ex05::less(0.6, 0.5) << endl;
 
 	return 0;
 }

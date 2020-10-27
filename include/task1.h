@@ -1,7 +1,7 @@
 #pragma once
 
 template<typename T>
-bool Less(T a, T b)
+bool less(T a, T b)
 {
 	if (a < b)
 		return true;
@@ -9,7 +9,7 @@ bool Less(T a, T b)
 }
 
 template<>
-bool Less<char*>(char* a, char* b)
+bool less<char*>(char* a, char* b)
 {
 	unsigned int i = 0;
 	while (a[i] != '\0' && b[i] != '\0')
