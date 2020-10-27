@@ -2,10 +2,6 @@
 #include "task1.h"
 #include<iostream>
 
-void less() {
-	return;
-}
-
 int main() {
 	int a = 5, b = 10;
 	std::cout << less(b, a)<<"\n";
@@ -23,10 +19,6 @@ int main() {
 	std::cout << less(c2, c1) << "\n";
 	double a1 = 5.99, b1 = 10.01;
 	std::cout << less(a1, b1) << "\n";
-
-
-	std::cout << typeid(a1).name() << "\n";
-
 
 	return 0;
 }
