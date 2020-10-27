@@ -5,14 +5,5 @@ using namespace std;
 
 int main()
 {
-	//int x, y;
-	//cin >> x >> y;
-	const char x[] = "a";
-	const char y[] = "b";
-	cout << less(x, y);
-
-
-
-
-
+	rerturn 0;
 }
