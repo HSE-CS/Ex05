@@ -1,8 +1,8 @@
 #ifdef TASK2_H
 #define TASK2_H
 
-template <class T>
-T averageArr(T* arg, unsigned long long size ) {
+template <typename T>
+T averageArr(T& arg, int size ) {
 	T sum = 0;
 	for (int i = 0; i < size; i++) {
 		sum = sum + arg[i];
