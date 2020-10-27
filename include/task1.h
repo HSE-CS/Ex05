@@ -15,9 +15,10 @@ bool less(T param1, T param2)
 }
 
 template<>
-bool less<char*>(char* param1, char* param2)
+bool less(const char* param1,const char* param2)
 {
   if (strcmp(param1, param2)<0) return true;
   else return false;
 }
+
 #endif TASK1_H
