@@ -12,3 +12,4 @@ int main() {
     cout << minArr(arrayf) << endl;
 
     return 0;
+}
