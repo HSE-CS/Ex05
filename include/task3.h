@@ -1,12 +1,22 @@
 //
-// Created by Алексей Трутнев on 26.10.2020.
+//  Тревис отказывается собирать мой проект, я решил проверить его работоспособность на чужом коде. 
 //
 
-#include <iostream>
+#pragma once
+ #include<cstring>
+ #include<iostream>
 
-template <typename T, size_t size>
-T minArr(T (&array)[size]){
-    int result_min = array[0];
-    for (size_t i = {0}; i < size; ++i) if (array[i] < result_min) result_min = array[i];
-    return result_min;
-}
+ template<typename T, size_t n>
+ T minArr(T (&point_array)[n]) {
+
+ 	T _min = point_array[0];
+
+ 	for (size_t i = 0; i < n; ++i) {
+
+ 		_min = (_min > point_array[i]) ? point_array[i] : _min;
+
+ 	}
+
+ 	return _min;
+
+ } 
