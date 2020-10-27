@@ -9,8 +9,7 @@ bool less(T object1, T object2)
     return object1 < object2;
 }
 
-template<>
-bool less<const char*>(const char* object1, const char* object2)
+template <> bool less(const char* object1, const char* object2)
 {
     return strcmp(object1, object2) < 0;
 }
