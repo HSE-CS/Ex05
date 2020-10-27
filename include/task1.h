@@ -2,7 +2,7 @@
 #include<iostream>
 
 template< typename T>
-bool less(const T x, const T y)
+bool less( T x, T y)
 {
 
 	if (x > y) return false;
