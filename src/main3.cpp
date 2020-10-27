@@ -1,5 +1,5 @@
-﻿#include "task3.h"
-
+#include <iostream>
+#include "task3.h"
 
 int main() {
     const size_t n = 8;
