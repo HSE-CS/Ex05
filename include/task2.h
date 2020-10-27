@@ -1,5 +1,5 @@
-#ifndef TASK1_H
-#define TASK1_H
+#ifndef TASK2_H
+#define TASK2_H
 #include <iostream>
 #include <string.h>
 
