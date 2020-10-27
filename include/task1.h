@@ -3,11 +3,11 @@
 
 template<class T>
 bool less(T a, T b) {
-	if (a < b) {
-		return true;
+	if (a > b) {
+		return false;
 	}
 	else {
-		return false;
+		return true;
 	}
 	 
 }
