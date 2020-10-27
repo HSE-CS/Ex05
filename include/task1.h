@@ -7,7 +7,7 @@
 
 #include <string>
 
-template<typename T>
+template<class T>
 bool less(T arg1, T arg2){
     return arg1 < arg2;
 }
