@@ -9,7 +9,7 @@ bool less(T a, T b){
 }
 
 template<>
-bool less(char *a, char *b){
-    return (bool)strcmp(a, b);
+bool less(const char *a, const char *b){
+    return strcmp(a, b) < 0;
 }
 #endif
