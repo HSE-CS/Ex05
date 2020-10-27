@@ -3,7 +3,7 @@
 
 template <typename T, int length>
  T minArr(T (&arr)[length]) {
-	 T min = INT_MAX;
+	 T min = 100000;
 	for (T it : arr)
 	{
 		if (it < min) min = it;
