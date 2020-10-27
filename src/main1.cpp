@@ -9,7 +9,7 @@ int main()
 	//cin >> x >> y;
 	const char x[] = "a";
 	const char y[] = "b";
-	cout << less_(x, y);
+	cout << less(x, y);
 
 
 
