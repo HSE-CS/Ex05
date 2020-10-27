@@ -4,20 +4,6 @@
 #include "task1.h"
 
 
-template <class Type> bool less(Type a, Type b){
-	if (a < b) {
-		return true;
-	}
-	return false;
-}
-
-template<> bool less<const char*>(const char* a, const char* b){
-	if (strcmp(a, b) < 0 ){
-		return false;
-	}
-	else return true;
-}
-
 int main(){
 	std::cout << less(1,3) << "\n" << std ::endl;	
 	std::cout << less('a', 'b') << "\n" << std::endl;
