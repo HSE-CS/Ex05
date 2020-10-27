@@ -14,7 +14,23 @@ cstring
 string
 -
 
+../include/task2.h
+iostream
+-
+
+../include/task3.h
+iostream
+-
+
 C:/Disk_D/My projects/C++/Ex05/src/main1.cpp
 task1.h
 C:/Disk_D/My projects/C++/Ex05/src/task1.h
+
+C:/Disk_D/My projects/C++/Ex05/src/main2.cpp
+task2.h
+C:/Disk_D/My projects/C++/Ex05/src/task2.h
+
+C:/Disk_D/My projects/C++/Ex05/src/main3.cpp
+task3.h
+C:/Disk_D/My projects/C++/Ex05/src/task3.h
 
