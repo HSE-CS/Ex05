@@ -6,7 +6,7 @@
 #include <cstring>
 
 template< typename T >
-T averageARR(T* massive, int size) //T - тип, указанный в параметре шаблона
+T averageArr(T* massive, int size) //T - тип, указанный в параметре шаблона
 {
 
 	T sum = massive[0];

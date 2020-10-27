@@ -6,7 +6,7 @@
 #include <cstring>
 
 template< typename T, size_t size >
-T minARR(T (& massive)[size]) //T - тип, указанный в параметре шаблона
+T minArr(T (& massive)[size]) //T - тип, указанный в параметре шаблона
 {
 	T min = massive[0];
 	//int size = sizeof(massive) / sizeof(T);
