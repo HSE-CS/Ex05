@@ -1,5 +1,6 @@
 #include <iostream>
 template<typename T>
+#define INT_MAX 2147483647
 
 T minArr(T arr) {
 	int len = sizeof(arr) / sizeof(arr[0]);

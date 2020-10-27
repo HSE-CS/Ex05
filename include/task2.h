@@ -1,4 +1,5 @@
 #include <iostream>
+// #include <time.h>
 template<typename T>
 
 T averageArr(T arr, T len) {
