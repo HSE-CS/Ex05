@@ -1,4 +1,4 @@
-#include "task1.h"
+#include "task2.h"
 
 int main() {
 	size_t n = 6;
