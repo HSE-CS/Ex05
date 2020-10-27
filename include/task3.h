@@ -1,6 +1,6 @@
-#ifdef TASK3_H
+#pragma once
 #define TASK3_H
-
+#ifdef TASK3_H
 template<typename T, int size> T minArr(T(&arg)[size])
 {
 	T minEL = arg[0];

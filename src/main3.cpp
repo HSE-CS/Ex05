@@ -1,8 +1,11 @@
-#include <iostream>
+#include<iostream>
+#include <cstring>
 #include "task3.h"
 
 int main() {
-    int arg[size] = { 2,5,7,1,-1,8 };
-    std::cout << minArr(arg);
-    return 0;
+
+	const size_t n = 6;
+	int val[n]{ 4, 3, 2, 2, 2, -1 };
+	int result = minArr(val);
+	std::cout << result;
 }

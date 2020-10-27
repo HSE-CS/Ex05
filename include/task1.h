@@ -1,14 +1,13 @@
-#ifdef TASK1_H
+#pragma once
 #define TASK1_H
-#include <cstring>
+#ifdef TASK1_H
 
-template <typename T> 
+template <typename T>
 bool less(T a, T b) {
     return a < b;
 }
-template<> 
-bool less< char*>( char* a,  char* b){
-    return strcmp(a, b) < 0 ;
-}
+template<>
+bool less< char*>(char* a, char* b) {
+    return strcmp(a, b) < 0;
+    }
 #endif // TASK1_H
-

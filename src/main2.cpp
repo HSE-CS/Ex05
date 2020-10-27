@@ -1,9 +1,11 @@
-#include <iostream>
+#include<iostream>
+#include <cstring>
 #include "task2.h"
 
+
 int main() {
-    const int size = 6;
-    int arg[size] = { 2,5,7,1,-1,8 };
-    std::cout << averageArr(arg, size);
-    return 0;
+	const size_t n = 6;
+	int val[n]{ 4, 3, 2, 2, 2, -1 };
+	int e = averageArr(val, n);
+	std::cout << e;
 }
