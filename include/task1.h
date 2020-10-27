@@ -1,23 +1,15 @@
 //
-//  Тревис отказывается собирать мой проект, я решил проверить его работоспособность на чужом коде. 
+// Created by Алексей Трутнев on 26.10.2020.
 //
 
-#pragma once
- #include<cstring>
- #include<iostream>
+#include <string>
 
- template<typename T>
- bool less(T a, T b) {
- 	return (a < b) ? true : false;
- }
+template<typename T>
+bool less(T arg1, T arg2){
+    return arg1 < arg2;
+}
 
- template<>
- bool less<char*>(char* a, char* b) {
-
- 	if (strcmp(a, b) >= 0) {
- 		return false;
- 	}else {
- 		return true;
- 	}
- } 
-
+template<>
+bool less<char *>(char * arg1, char * arg2){
+    return strcmp(arg1, arg2) < 0;
+}
