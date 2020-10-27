@@ -1,6 +1,0 @@
-# ninja log v5
-11	557	625523073	CMakeFiles/task3.dir/src/main3.cpp.obj	81655e742d56e9
-19	566	625523073	CMakeFiles/task2.dir/src/main2.cpp.obj	76be70d05467062d
-1	1876	625523075	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
-1	1070	625523135	task1.exe	2b5cdfda7b3f556f
-1	1036	625523165	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
