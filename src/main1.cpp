@@ -4,8 +4,11 @@
 
 #include "task1.h"
 
-signed main() {
-
-
-    return 0;
-}
+//signed main() {
+//
+//    std::cout << less(1, 2) << '\n';
+//    std::cout << less('f', 'a') << '\n';
+//    std::cout << less((char *) "first ", (char *) "second") << '\n';
+//
+//    return 0;
+//}

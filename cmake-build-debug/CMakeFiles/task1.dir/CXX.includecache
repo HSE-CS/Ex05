@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/toliman/Projects/HSE-CS/EX05/Ex05/src/main1.cpp
+../include/task2.h
+bits/stdc++.h
+-
+
+../include/task3.h
+bits/stdc++.h
+-
 
 /home/toliman/Projects/HSE-CS/EX05/Ex05/src/main2.cpp
+task2.h
+/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.h
 
 /home/toliman/Projects/HSE-CS/EX05/Ex05/src/main3.cpp
-
-/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task1.cpp
-
-/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.cpp
-
-/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.cpp
+task3.h
+/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.h
 

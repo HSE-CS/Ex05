@@ -10,4 +10,9 @@
 
 using namespace std;
 
+template<class T>
+T minArr(T *array) {
+    T answer = 0;
+}
+
 #endif //TASK1_TASK3_H
