@@ -1,10 +1,10 @@
 #include <iostream>
 
 template <typename T>
-T averageArr(T* arr, size_t sizeArr) {
-    T sum = 0;
+T averageArr(T* arr, int sizeArr) {
+    T sum_res = 0;
     for (int i = 0; i < sizeArr; i++) {
-        sum += arr[i];
+        sum_res += arr[i];
     }
-    return sum /= sizeArr;
+    return sum_res /= sizeArr;
 }
