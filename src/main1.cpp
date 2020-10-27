@@ -14,3 +14,4 @@ int main() {
 	const char* str2 = "baab";
 	bool f = less(str1, str2);
 	std::cout << f;
+}
