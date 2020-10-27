@@ -7,5 +7,5 @@ bool less(T a, T b) {
 
 template<>
 bool less<const char*>(const char* a, const char* b) {
-    return std::strcmp(a, b) < 0
+    return std::strcmp(a, b) < 0;
 }
