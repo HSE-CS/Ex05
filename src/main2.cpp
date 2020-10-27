@@ -1,6 +1,6 @@
-#include"../include/task2.h"
+//#include"../include/task2.h"
 #include <iostream>
-//#include "task2.h"
+#include "task2.h"
 
 
 int main() {
