@@ -1,4 +1,3 @@
 #include <iostream>
-
-template <class T> 
-T Less(T a, T b);
+template <class Type> bool less(Type a, Type b);
+template<> bool less<const char*>(const char* a, const char* b);
