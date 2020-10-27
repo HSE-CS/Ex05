@@ -18,11 +18,11 @@ namespace Ex05 {
         for (T2 i = 0; i < n; ++i) {
             answer += array[i];
         }
-        return answer / n;
+        return answer / (T1) n;
     }
 
 }
-}
+
 
 
 #endif //TASK1_TASK2_H
