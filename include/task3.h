@@ -1,5 +1,5 @@
-#ifndef TASK1
-#define TASK1
+#ifndef TASK_3
+#define TASK_3
 template <typename T, int n> T minArr(T (&ar)[n])
 {
 	T min = ar[0];
