@@ -1,0 +1,5 @@
+/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/task1.dir
+/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/task2.dir
+/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/task3.dir
