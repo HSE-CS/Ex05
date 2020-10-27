@@ -1,16 +1,15 @@
 #ifndef TASK3_H
 #define TASK3_H
 
-#include <string.h>
-#include <string>
+#include<typeinfo>
 
 const unsigned int n = 6;
 
-template<class T>
-T minArr(T (&a)[n])
+template<class T, size_t N>
+T minArr(T (&a)[N])
 {
 	T min = a[0];
-	for (unsigned int i = 0; i < sizeof(a) / sizeof(a[0]); ++i) {
+	for (unsigned int i = 0; i < N; ++i) {
 		if (a[i] < min) min = a[i];
 	}
 	return min;
