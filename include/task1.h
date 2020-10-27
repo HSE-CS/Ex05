@@ -11,6 +11,6 @@ bool less(T arg1, T arg2){
 }
 
 template<>
-bool less<const char *>(const char * arg1, const char * arg2){
+bool less<const char*>(const char* arg1, const char* arg2){
     return strcmp(arg1, arg2) < 0;
 }
