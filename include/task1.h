@@ -1,6 +1,6 @@
 #ifndef TASK1_H
 #define TASK1_H
-#include <string>
+#include <cstring>
 
 template <typename T>
 bool less(T first, T second) {
