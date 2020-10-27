@@ -17,7 +17,7 @@ bool less(T param1, T param2){
 
 template <>
 bool less(const char* param1, const char* param2){
-    return (strcmp(param1, param2) > 0);
+    return (strcmp(param1, param2) < 0);
 }
 
 
