@@ -14,13 +14,10 @@ bool less(T& first, T& second) //T - тип, указанный в параметре шаблона
  template<> 
  bool less(char& first, char& second)
  {
-     return strcmp(&first, &second);
+     return strcmp(*first, *second);
  }
 
- template<>
- bool less(string & first, str& second)
- {
-     return strcmp(&first, &second);
- }
+
+
 
 
