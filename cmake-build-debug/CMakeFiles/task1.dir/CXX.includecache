@@ -9,16 +9,12 @@
 ../include/task1.h
 iostream
 -
-
-../include/task2.h
-iostream
+cstring
+-
+string
 -
 
 C:/Disk_D/My projects/C++/Ex05/src/main1.cpp
 task1.h
 C:/Disk_D/My projects/C++/Ex05/src/task1.h
-
-C:/Disk_D/My projects/C++/Ex05/src/main2.cpp
-task2.h
-C:/Disk_D/My projects/C++/Ex05/src/task2.h
 

@@ -7,5 +7,6 @@ CMakeFiles\task1.dir\src\main1.cpp.obj: ..\src\main1.cpp
 CMakeFiles\task1.dir\src\main2.cpp.obj: ..\include\task2.h
 CMakeFiles\task1.dir\src\main2.cpp.obj: ..\src\main2.cpp
 
+CMakeFiles\task1.dir\src\main3.cpp.obj: ..\include\task3.h
 CMakeFiles\task1.dir\src\main3.cpp.obj: ..\src\main3.cpp
 
