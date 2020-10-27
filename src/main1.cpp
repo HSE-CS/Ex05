@@ -1,7 +1,7 @@
 #include "task1.h"
 
 
-using namespace std;
+//using namespace std;
 
 
 int main()
@@ -11,12 +11,12 @@ int main()
 	char x = 'o', y = 'z';
 	const char* str1 = "abca";
 	const char* str2 = "abcb";
-	bool result = ::less(a, b);
-	cout << result << endl;
-	result = ::less(x, y);
-	cout << result << endl;
-	result = ::less(str1, str2);
-	cout << result << endl;
+	bool result = less(a, b);
+	printf("%d\n", result);
+	result = less(x, y);
+	printf("%d\n", result);
+	result = less(str1, str2);
+	printf("%d\n", result);
 	
 	return 0;
 
