@@ -2,6 +2,7 @@
 #define EX05_TASK1_H
 
 #include <iostream>
+#incliude <cstring>
 
 template<typename T>
 bool less(T a, T b) {
