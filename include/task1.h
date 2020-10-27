@@ -2,8 +2,8 @@
 // Created by Алексей Трутнев on 26.10.2020.
 //
 
-#include <string>
 #include<iostream>
+#include <string>
 
 template<typename T>
 bool less(T arg1, T arg2){
@@ -11,6 +11,6 @@ bool less(T arg1, T arg2){
 }
 
 template<>
-bool less<char *>(char * arg1, char * arg2){
+bool less<const char *>(const char * arg1, const char * arg2){
     return strcmp(arg1, arg2) < 0;
 }
