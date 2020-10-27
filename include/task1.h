@@ -3,7 +3,7 @@
 //
 
 #include<iostream>
-#include <string>
+#include <cstring>
 
 template<typename T>
 bool less(T arg1, T arg2){
