@@ -9,7 +9,7 @@ template<class T> int averageArr(T & val, T n)
         sum += val[i];
         kol++;
     }
-    return sum<int>/kol;
+    return sum/kol;
 }
 
 #endif //TASK1_TASK2_H

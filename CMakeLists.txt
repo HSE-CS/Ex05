@@ -18,9 +18,9 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp)
-set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp)
-set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp)
+set(SRC_FILES1 include/task1.h src/main1.cpp include/task1.h)
+set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp src/main2.cpp include/task2.h)
+set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp src/main3.cpp include/task3.h)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -28,9 +28,9 @@ set(CMAKE_CXX_STANDARD 11)
 #add_library(task2_lib ${SRC_FILES2})
 #add_library(task3_lib ${SRC_FILES3})
 
-add_executable(task1 ${SRC_FILES1})
-add_executable(task2 ${SRC_FILES2})
-add_executable(task3 ${SRC_FILES3})
+add_executable(task1 ${SRC_FILES1} src/main1.cpp include/task1.h)
+add_executable(task2 ${SRC_FILES2} src/main2.cpp include/task2.h)
+add_executable(task3 ${SRC_FILES3} src/main3.cpp include/task3.h)
 
 #target_link_libraries(task1 task1_lib)
 #target_link_libraries(task2 task2_lib)
