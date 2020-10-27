@@ -1,6 +1,6 @@
 #include "task1.h"
 
-using namespace std;
+using std::cout;
 
 int main() {
     const char *x = "123";
