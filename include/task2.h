@@ -3,8 +3,8 @@
 
 #include <iostream>
 
-template<class T>
-int averageArr(T & arr, int N) {
+template<typename T>
+int averageArr(T & arr, size_t N) {
 
     int sum = 0;
     for (unsigned int i = 0; i < N; i++)

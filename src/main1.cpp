@@ -2,10 +2,10 @@
 #include "task1.h"
 
 int main() {
-    int a=5,b=6;
-    char x='a',y='b';
-    bool result=less(a,b);
+    const char *str1="abba";
+    const char *str2="baab";
+    bool result=less(str2,str1);
+
     std::cout<<result<<std::endl;
-    result=less(x,y);
-    std::cout<<result;
+
 }

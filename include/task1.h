@@ -1,5 +1,10 @@
 #ifndef TASK1_TASK1_H
 #define TASK1_TASK1_H
+#define _CRT_SECURE_NO_WARNINGS_
+#include <iostream>
+#include <string.h>
+#include <cstring>
+#include <string>
 
 template<typename T>
 bool less(T a, T b) {
