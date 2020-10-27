@@ -1,7 +1,6 @@
 #include <iostream>
 #include "task1.h"
 
-#if 0
 int main() {
 	int a(5), b(6);
 	char x('a'), y('b');
@@ -9,4 +8,3 @@ int main() {
 	bool result = less(two, one);
 	std::cout << result;
 }
-#endif
