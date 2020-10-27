@@ -11,8 +11,9 @@ using namespace std;
 
 int main()
 {
-	const size_t n = 6;
-	int val[n]{ 4, 3, 2, 2, 2, 5 };
+	const size_t n = 10;
+	int val[n]{ 4, 3, 2, 2, 2, 5, 5, 10, 323, -1};
 	int result = ::minArr(val);
+	cout << result << endl;
 	return 0;
 }

@@ -17,7 +17,8 @@ int main()
 	double val2[n]{ 4.2, 3.3, 2.2, 2.3, 2.1, 5.4 };
 	int result = ::averageArr(val, n);
 	double result2 = ::averageArr(val2, n);
-
+	cout << result << endl;
+	cout << result2 << endl;
 	
     return 0;
 }
