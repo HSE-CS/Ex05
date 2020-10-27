@@ -10,6 +10,7 @@
 
 template<class T>
 bool less(T first, T second) {
+    return (bool) (first < second);
 
     if (!strcmp(typeid(first).name(), "i")) {
         return (bool) (first < second);
@@ -21,7 +22,7 @@ bool less(T first, T second) {
 }
 
 template<>
-bool less(char *first, char *second) {
+bool less(const char *first, const char *second) {
     return (bool) (strcmp(first, second) < 0);
 }
 

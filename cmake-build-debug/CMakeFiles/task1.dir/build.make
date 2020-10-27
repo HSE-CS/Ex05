@@ -116,53 +116,11 @@ CMakeFiles/task1.dir/src/main3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/main3.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/toliman/Projects/HSE-CS/EX05/Ex05/src/main3.cpp -o CMakeFiles/task1.dir/src/main3.cpp.s
 
-CMakeFiles/task1.dir/src/task1.cpp.o: CMakeFiles/task1.dir/flags.make
-CMakeFiles/task1.dir/src/task1.cpp.o: ../src/task1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task1.dir/src/task1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task1.dir/src/task1.cpp.o -c /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task1.cpp
-
-CMakeFiles/task1.dir/src/task1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/task1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task1.cpp > CMakeFiles/task1.dir/src/task1.cpp.i
-
-CMakeFiles/task1.dir/src/task1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/task1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task1.cpp -o CMakeFiles/task1.dir/src/task1.cpp.s
-
-CMakeFiles/task1.dir/src/task2.cpp.o: CMakeFiles/task1.dir/flags.make
-CMakeFiles/task1.dir/src/task2.cpp.o: ../src/task2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task1.dir/src/task2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task1.dir/src/task2.cpp.o -c /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.cpp
-
-CMakeFiles/task1.dir/src/task2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/task2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.cpp > CMakeFiles/task1.dir/src/task2.cpp.i
-
-CMakeFiles/task1.dir/src/task2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/task2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.cpp -o CMakeFiles/task1.dir/src/task2.cpp.s
-
-CMakeFiles/task1.dir/src/task3.cpp.o: CMakeFiles/task1.dir/flags.make
-CMakeFiles/task1.dir/src/task3.cpp.o: ../src/task3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task1.dir/src/task3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task1.dir/src/task3.cpp.o -c /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.cpp
-
-CMakeFiles/task1.dir/src/task3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/task3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.cpp > CMakeFiles/task1.dir/src/task3.cpp.i
-
-CMakeFiles/task1.dir/src/task3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/task3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.cpp -o CMakeFiles/task1.dir/src/task3.cpp.s
-
 # Object files for target task1
 task1_OBJECTS = \
 "CMakeFiles/task1.dir/src/main1.cpp.o" \
 "CMakeFiles/task1.dir/src/main2.cpp.o" \
-"CMakeFiles/task1.dir/src/main3.cpp.o" \
-"CMakeFiles/task1.dir/src/task1.cpp.o" \
-"CMakeFiles/task1.dir/src/task2.cpp.o" \
-"CMakeFiles/task1.dir/src/task3.cpp.o"
+"CMakeFiles/task1.dir/src/main3.cpp.o"
 
 # External object files for target task1
 task1_EXTERNAL_OBJECTS =
@@ -170,12 +128,9 @@ task1_EXTERNAL_OBJECTS =
 task1: CMakeFiles/task1.dir/src/main1.cpp.o
 task1: CMakeFiles/task1.dir/src/main2.cpp.o
 task1: CMakeFiles/task1.dir/src/main3.cpp.o
-task1: CMakeFiles/task1.dir/src/task1.cpp.o
-task1: CMakeFiles/task1.dir/src/task2.cpp.o
-task1: CMakeFiles/task1.dir/src/task3.cpp.o
 task1: CMakeFiles/task1.dir/build.make
 task1: CMakeFiles/task1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable task1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable task1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

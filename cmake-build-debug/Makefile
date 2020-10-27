@@ -256,87 +256,6 @@ src/main3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/src/main3.cpp.s
 .PHONY : src/main3.cpp.s
 
-src/task1.o: src/task1.cpp.o
-
-.PHONY : src/task1.o
-
-# target to build an object file
-src/task1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.o
-.PHONY : src/task1.cpp.o
-
-src/task1.i: src/task1.cpp.i
-
-.PHONY : src/task1.i
-
-# target to preprocess a source file
-src/task1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.i
-.PHONY : src/task1.cpp.i
-
-src/task1.s: src/task1.cpp.s
-
-.PHONY : src/task1.s
-
-# target to generate assembly for a file
-src/task1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.s
-.PHONY : src/task1.cpp.s
-
-src/task2.o: src/task2.cpp.o
-
-.PHONY : src/task2.o
-
-# target to build an object file
-src/task2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task2.cpp.o
-.PHONY : src/task2.cpp.o
-
-src/task2.i: src/task2.cpp.i
-
-.PHONY : src/task2.i
-
-# target to preprocess a source file
-src/task2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task2.cpp.i
-.PHONY : src/task2.cpp.i
-
-src/task2.s: src/task2.cpp.s
-
-.PHONY : src/task2.s
-
-# target to generate assembly for a file
-src/task2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task2.cpp.s
-.PHONY : src/task2.cpp.s
-
-src/task3.o: src/task3.cpp.o
-
-.PHONY : src/task3.o
-
-# target to build an object file
-src/task3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task3.cpp.o
-.PHONY : src/task3.cpp.o
-
-src/task3.i: src/task3.cpp.i
-
-.PHONY : src/task3.i
-
-# target to preprocess a source file
-src/task3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task3.cpp.i
-.PHONY : src/task3.cpp.i
-
-src/task3.s: src/task3.cpp.s
-
-.PHONY : src/task3.s
-
-# target to generate assembly for a file
-src/task3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task3.cpp.s
-.PHONY : src/task3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,15 +276,6 @@ help:
 	@echo "... src/main3.o"
 	@echo "... src/main3.i"
 	@echo "... src/main3.s"
-	@echo "... src/task1.o"
-	@echo "... src/task1.i"
-	@echo "... src/task1.s"
-	@echo "... src/task2.o"
-	@echo "... src/task2.i"
-	@echo "... src/task2.s"
-	@echo "... src/task3.o"
-	@echo "... src/task3.i"
-	@echo "... src/task3.s"
 .PHONY : help
 
 

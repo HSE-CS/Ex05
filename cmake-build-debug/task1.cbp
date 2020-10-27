@@ -196,15 +196,6 @@
 			<Option target="task1"/>
 			<Option target="task3"/>
 		</Unit>
-		<Unit filename="/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task1.cpp">
-			<Option target="task1"/>
-		</Unit>
-		<Unit filename="/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task2.cpp">
-			<Option target="task1"/>
-		</Unit>
-		<Unit filename="/home/toliman/Projects/HSE-CS/EX05/Ex05/src/task3.cpp">
-			<Option target="task1"/>
-		</Unit>
 		<Unit filename="/home/toliman/Projects/HSE-CS/EX05/Ex05/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
