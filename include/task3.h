@@ -9,10 +9,10 @@
 
 template < typename T, size_t size>
 T minArr(T (&array)[size]) {
-    T min = array[0];
+    T minNumber = array[0];
     for (T number:array)
-        if(number<min)
-            min=number;
-    return min;
+        if(number<minNumber)
+            minNumber=number;
+    return minNumber;
 }
 #endif //TASK1_TASK3_H
