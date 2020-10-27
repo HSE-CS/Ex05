@@ -9,17 +9,18 @@ template< typename T >
 bool less(T& first, T& second) //T - тип, указанный в параметре шаблона
 {
     return first < second;
-};
+}
 
  template<> 
  bool less(char& first, char& second)
  {
      return strcmp(&first, &second);
- };
+ }
 
  template<>
- bool less(str& first, str& second)
+ bool less(string & first, str& second)
  {
      return strcmp(&first, &second);
- };
+ }
+
 
