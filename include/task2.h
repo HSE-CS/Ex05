@@ -1,19 +1,12 @@
 //
-//  Тревис отказывается собирать мой проект, я решил проверить его работоспособность на чужом коде. 
+// Created by Алексей Трутнев on 26.10.2020.
 //
-#pragma once
- #include<cstring>
- #include<iostream>
 
- template<typename T, typename S>
- T averageArr(T* point_array, S _size) {
+#include <iostream>
 
- 	T _sum = 0;
-
- 	for (size_t i = 0; i < _size; ++i) {
- 		_sum += point_array[i];
- 	}
-
- 	return (_sum / _size);
-
- } 
+template <typename T>
+double averageArr(T * array, size_t size){
+    double sum = {0.};
+    for (size_t i = {0}; i < size; ++i) sum += array[i];
+    return sum / size;
+}
