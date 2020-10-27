@@ -8,6 +8,7 @@
 template< typename T >
 T averageARR(T* massive, int size) //T - тип, указанный в параметре шаблона
 {
+
 	T sum = massive[0];
 	for (int i = 1; i < size; i++)
 	{
