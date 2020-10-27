@@ -15,3 +15,4 @@ double averageArr(const T * array, size_t size){
 }
 
 #endif //EX05_TASK2_H
+
