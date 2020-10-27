@@ -4,12 +4,12 @@
 
 #include "task2.h"
 
-//signed main() {
+signed main() {
 //    int a[] = {1, 2, 3, 4, 5};
 //    int n = 5;
-//    std::cout << averageArr(a, n) << '\n';
-//
-//    return 0;
-//}
+//    std::cout << Ex05::averageArr(a, n) << '\n';
+
+    return 0;
+}
 
 
