@@ -4,7 +4,7 @@
 
 #ifndef TASK1_TASK1_H
 #define TASK1_TASK1_H
-
+#include <typeinfo>
 #include <cstring>
 template<class T>
 bool less(T firstNumber, T secondNumber)

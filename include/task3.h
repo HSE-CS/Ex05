@@ -5,6 +5,7 @@
 #ifndef TASK1_TASK3_H
 #define TASK1_TASK3_H
 #include <cstring>
+#include <typeinfo>
 
 template < typename T, size_t size>
 T minArr(T (&array)[size]) {

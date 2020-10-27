@@ -4,7 +4,7 @@
 
 #ifndef TASK1_TASK2_H
 #define TASK1_TASK2_H
-
+#include <typeinfo>
 #include <cstring>
 
 template < typename T >
