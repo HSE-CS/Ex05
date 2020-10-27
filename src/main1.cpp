@@ -4,7 +4,7 @@
 #include "task1.h"
 
 
-int main1(){
+int main(){
 	std::cout << less(1,3) << "\n" << std ::endl;	
 	std::cout << less('a', 'b') << "\n" << std::endl;
 	const char* str1 = "abba";

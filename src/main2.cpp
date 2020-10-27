@@ -3,7 +3,7 @@
 #include <string>
 
 
-int main2()
+int main()
 {
 	const int n = 3;
 	int arr[n]{ 1, 2, 3};
