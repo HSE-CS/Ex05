@@ -1,5 +1,6 @@
-#define TASK2_H
 #ifdef TASK2_H
+#define TASK2_H
+
 template <class T>
 int averageArr(T* arg, unsigned size ) {
 	T sum = 0;

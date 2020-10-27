@@ -1,6 +1,7 @@
-#include <cstring>
-#define TASK1_H
 #ifdef TASK1_H
+#define TASK1_H
+#include <cstring>
+
 template <typename T> 
 bool less(T a, T b) {
     return a < b;

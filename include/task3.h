@@ -1,5 +1,6 @@
-#define TASK3_H
 #ifdef TASK3_H
+#define TASK3_H
+
 template<class T, int size> T minArr(T(&arg)[size])
 {
 	T minEL = arg[0];
