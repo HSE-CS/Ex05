@@ -1,6 +1,8 @@
 #ifndef TASK1_H
 #define TASK1_H
 
+#include <string.h>
+
 template <typename T>
 bool less(T left, T right) {
 	return left < right;
