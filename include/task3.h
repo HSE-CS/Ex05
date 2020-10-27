@@ -1,6 +1,6 @@
 #ifndef Task3_H
 #define Task3_H
-
+#include <iostream>
 
 using namespace std; 
 
