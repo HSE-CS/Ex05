@@ -8,18 +8,18 @@
 template< typename T >
 bool less(T& first, T& second) //T - тип, указанный в параметре шаблона
 {
-    if (first < second)
-        return true;
-    else
-        return false;
+    return first < second
 };
 
  template<> 
  bool less(char &first, char &second)
  {
-     if (strcmp(&first, &second) < 0)
-         return true;
-     else
-         return false;
+     return strcmp(&first, &second)
+ }
+
+ template<>
+ bool less(str& first, str& second)
+ {
+     return strcmp(&first, &second)
  }
 
