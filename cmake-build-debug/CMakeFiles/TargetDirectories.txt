@@ -1,0 +1,5 @@
+C:/Repositories/Shtanyuk PO/Ex05/cmake-build-debug/CMakeFiles/task1.dir
+C:/Repositories/Shtanyuk PO/Ex05/cmake-build-debug/CMakeFiles/task2.dir
+C:/Repositories/Shtanyuk PO/Ex05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Repositories/Shtanyuk PO/Ex05/cmake-build-debug/CMakeFiles/task3.dir
+C:/Repositories/Shtanyuk PO/Ex05/cmake-build-debug/CMakeFiles/edit_cache.dir
