@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 template<typename T> bool less(T a, T b)
 {
