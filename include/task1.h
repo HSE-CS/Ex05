@@ -1,37 +1,27 @@
 #ifndef TASK1_H
 #define TASK1_H
 
-#include <string>
-#include <typeinfo>
+
 #include <iostream>
-#include <cmath>
-#include <algorithm>
-#include <cstdlib>
-#include <ctime>
 #include <cstring>
-#include <string.h>
-#include <iterator>
 
 using namespace std;
 
 typedef const char* stroka;
 
 
-template <typename t>
-bool less(t a, t b)
+template<typename T > bool less(T a, T b)
 {
 	if (a < b) return true;
 	else return false;
-
 }
-template<>
-bool less<char*>(char* a, char* b)
-{
-	if (strcmp(a, b) == 0) return false;
-	if (strcmp(a, b) == 1) return false;
-	else return true;
-
-}
+//template<> 
+//bool less<const char*>(const char* a, const char* b)
+//{
+//	if (strcmp(a, b) == 0) return false;
+//	if (strcmp(a, b) == 1) return false;
+//	else return true;
+//}
 
 /*
 template <typename T>

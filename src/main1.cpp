@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	/*
+
 	int a = 2, b = 10;
 	char x = 'o', y = 'z';
 	bool result = ::less(a, b);
@@ -17,7 +17,7 @@ int main()
 	const char* str2 = "abcb";
 	result = ::less(str1, str2);
 	cout << result << endl;
-	*/
+	
 	return 0;
 
 }
