@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     const char *x = "123";
     const char *y = "323";
-    cout << less(x, y);
+    bool result = less(x, y);
+    cout << result;
     return 0;
 }
