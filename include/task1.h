@@ -1,5 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS_
 #include <iostream>
 #include <string.h>
+#include <cstring>
+#include <string>
 
 template <typename T>
 bool less(T first, T second)
