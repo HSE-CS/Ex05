@@ -6,9 +6,8 @@
 
 using namespace std;
 
-
 template<class T, int length>
-int minArr(T (&array)[length]) {
+T minArr(T (&array)[length]) {
     for (int i = 1; i < length; ++i) {
         array[0] = min(array[0], array[i]);
     }

@@ -18,11 +18,6 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-#set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp src/main1.cpp src/main2.cpp src/main3.cpp include/task1.h include/task2.h include/task3.h)
-#set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp ${PROJECT_SOURCE_DIR}/include/task1.h)
-#set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp ${PROJECT_SOURCE_DIR}/include/task2.h)
-#set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp ${PROJECT_SOURCE_DIR}/include/task3.h)
-
 set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp)
 set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp)
 set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp)
@@ -81,6 +76,6 @@ if (BUILD_TESTS)
 
         SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
         SET(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
-    endif () #CMAKE_BUILD_TYPE STREQUAL "Coverage"
+    endif() #CMAKE_BUILD_TYPE STREQUAL "Coverage"
 
-endif ()
+endif()
