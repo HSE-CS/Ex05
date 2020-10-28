@@ -19,9 +19,9 @@ file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
 #set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp src/main1.cpp src/main2.cpp src/main3.cpp include/task1.h include/task2.h include/task3.h)
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp include/task1.h)
-set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp include/task2.h)
-set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp include/task3.h)
+set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/main1.cpp ${PROJECT_SOURCE_DIR}/include/task1.h)
+set(SRC_FILES2 ${PROJECT_SOURCE_DIR}/src/main2.cpp ${PROJECT_SOURCE_DIR}/include/task2.h)
+set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/main3.cpp ${PROJECT_SOURCE_DIR}/include/task3.h)
 
 set(CMAKE_CXX_STANDARD 11)
 
