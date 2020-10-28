@@ -2,9 +2,6 @@
 // Created by User on 29.10.2020.
 //
 
-#ifndef TASK1_TASK2_H
-#define TASK1_TASK2_H
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -19,5 +16,3 @@ namespace Ex05 {
     }
 
 }
-
-#endif //TASK1_TASK2_H

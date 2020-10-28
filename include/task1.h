@@ -2,9 +2,6 @@
 // Created by User on 29.10.2020.
 //
 
-#ifndef TASK1_TASK1_H
-#define TASK1_TASK1_H
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -21,5 +18,3 @@ namespace Ex05 {
         return strcmp(fi, se) < 0;
     }
 }
-
-#endif //TASK1_TASK1_H
