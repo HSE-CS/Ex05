@@ -1,4 +1,4 @@
-#define TASK2_H
+#define TASK3_H
 #include <iostream>
 
 template<class T> int minArr(T &arg)
