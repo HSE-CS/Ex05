@@ -4,9 +4,14 @@
 #include <cstring>
 #include <string>
 
-template<class T> void averageArr(T & arg)
+template<class T> int averageArr(T& arg, const size_t n)
 {
-	cout<<typeid(arg).name()<<endl;
+	double sum = 0;
+	for (size_t i = 0; i < n; ++i)
+	{
+		sum += arg[i];
+	}
+	return(sum / n);
 }
 
 #endif
