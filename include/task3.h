@@ -4,9 +4,9 @@
 #include <cstring>
 #include <string>
 
-template<class T> int minArr(T& a)
+template<class T, size_t N> T minArr(T(&a)[N])
 {
-	int min = a[0];
+	T min = a[0];
 	for (size_t i = 0; i < (sizeof(a) / sizeof(a[0])); ++i)
 	{
 		if (a[i] < min)

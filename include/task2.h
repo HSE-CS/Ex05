@@ -4,14 +4,14 @@
 #include <cstring>
 #include <string>
 
-template<class T> int averageArr(T& arg, const size_t n)
+template<class T> T averageArr(T* arg, unsigned int n)
 {
-	double sum = 0;
+	T sum = 0;
 	for (size_t i = 0; i < n; ++i)
 	{
 		sum += arg[i];
 	}
-	return(sum / n);
+	return T(sum / n);
 }
 
 #endif
