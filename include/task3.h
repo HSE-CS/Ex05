@@ -5,12 +5,13 @@
 #ifndef EX_05_TASK1_H
 #define EX_05_TASK1_H
 
-template <class T, size_t size> T minArr(T(&arr)[size]) {
-    T min = arr[0];
-    for (T item : arr) {
-        if (min > item)
-            min = item;
+template <typename T, int len>
+T minArr(T (& arr)[len]){
+    T minValue = arr[0];
+    for(int i = 0; i < len; i++){
+        minValue = arr[i] < minValue ? arr[i] : minValue;
     }
-    return min;
+    return minValue;
 }
+
 #endif //EX_05_TASK1_H

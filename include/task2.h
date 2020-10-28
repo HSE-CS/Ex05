@@ -5,11 +5,13 @@
 #ifndef EX_05_TASK1_H
 #define EX_05_TASK1_H
 
-template<class T> T averageArr(T* arr, size_t size) {
+template <typename T>
+T averageArr(T *arr, unsigned N){
     T sum = 0;
-    for (int i = 0; i < size; i++) {
+    for(unsigned i = 0; i < N; i++){
         sum += arr[i];
     }
-    return sum/(T)size;
+    return sum / (T)N;
 }
+
 #endif //EX_05_TASK1_H

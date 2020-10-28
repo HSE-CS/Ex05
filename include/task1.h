@@ -4,12 +4,18 @@
 
 #ifndef EX_05_TASK1_H
 #define EX_05_TASK1_H
-#include <cstring>
-template<class T> bool less(T a, T b) {
-    return a < b;
+
+#include <string.h>
+
+template <typename T>
+bool less(T a, T b){
+    return a < b ? true : false;
 }
 
-template <> bool less(const char* a, const char* b) {
-    return strcmp(a, b) < 0;
+
+template <>
+bool less(const char* a, const char* b){
+    return strcmp(a, b) < 0 ? true : false;
 }
+
 #endif //EX_05_TASK1_H
