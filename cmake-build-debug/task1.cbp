@@ -176,15 +176,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/User/Desktop/Projects/EX05/Ex05/include/task1.h">
-			<Option target="task1"/>
-		</Unit>
-		<Unit filename="C:/Users/User/Desktop/Projects/EX05/Ex05/include/task2.h">
-			<Option target="task2"/>
-		</Unit>
-		<Unit filename="C:/Users/User/Desktop/Projects/EX05/Ex05/include/task3.h">
-			<Option target="task3"/>
-		</Unit>
 		<Unit filename="C:/Users/User/Desktop/Projects/EX05/Ex05/src/main1.cpp">
 			<Option target="task1"/>
 		</Unit>
