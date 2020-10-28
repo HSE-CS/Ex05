@@ -1,6 +1,5 @@
-#include <iostream>
-#include <algorithm>
 #include "task3.h"
+#include <iostream>
 
 
 int main() {

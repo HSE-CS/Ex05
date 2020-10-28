@@ -1,5 +1,5 @@
-#include <iostream>
 #include "task2.h"
+#include <iostream>
 
 int main() {
     const size_t n = 6;

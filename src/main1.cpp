@@ -1,9 +1,5 @@
-//
-// Created by kasya on 26.10.2020.
-//
-#include <iostream>
-#include <cstring>
 #include "task1.h"
+#include <iostream>
 
 int main() {
     int n1 = 5;

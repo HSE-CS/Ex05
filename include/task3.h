@@ -1,6 +1,3 @@
-#ifndef TASK1_TASK3_H
-#define TASK1_TASK3_H
-
 template<typename T, size_t n>
 T minArr(T (&a)[n]) {
     T min = a[0];
@@ -12,4 +9,3 @@ T minArr(T (&a)[n]) {
     return min;
 }
 
-#endif //TASK1_TASK3_H

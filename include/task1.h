@@ -1,10 +1,3 @@
-//
-// Created by kasya on 26.10.2020.
-//
-
-#ifndef TASK1_TASK1_H
-#define TASK1_TASK1_H
-
 #include <cstring>
 
 template<typename T>
@@ -21,4 +14,3 @@ bool less(char *a, char *b) {
     }
 }
 
-#endif //TASK1_TASK1_H
