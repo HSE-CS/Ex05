@@ -1,7 +1,7 @@
 #pragma once
 #include <limits>
 
-template <typename T, size_t size>
+template <typename T, unsigned int size>
 T minArr(const T (&arr)[size])
 {
 	T min = std::numeric_limits<int>::max();
