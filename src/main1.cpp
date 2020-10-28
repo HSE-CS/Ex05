@@ -8,7 +8,7 @@ int main() {
 	const char* str1 = "template";
 	const char* str2 = "cpp";
 	std::cout << less(str1, str2) << std::endl;
-	std::cout << less(a, b) << std::endl;
+	std::cout << less(x, y) << std::endl;
 	//int first_int = 5;
 	//int second_int = 3;
 
