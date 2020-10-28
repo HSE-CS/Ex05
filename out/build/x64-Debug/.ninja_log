@@ -1,0 +1,6 @@
+# ninja log v5
+6	653	625588603	CMakeFiles/task3.dir/src/main3.cpp.obj	81655e742d56e9
+1	1005	625588604	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
+5	842	625588640	CMakeFiles/task2.dir/src/main2.cpp.obj	76be70d05467062d
+1	891	625588640	task1.exe	2b5cdfda7b3f556f
+5	712	625589618	task2.exe	d0d57497c28c66ab
