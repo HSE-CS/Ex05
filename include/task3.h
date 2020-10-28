@@ -1,6 +1,8 @@
 #ifndef TASK3_H
 #define TASK3_H
 
+#include <iostream>
+
 template <typename T, size_t N> 
 T minArr(T (&arr)[N])
 {
