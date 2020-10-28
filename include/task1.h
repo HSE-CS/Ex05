@@ -3,7 +3,7 @@
 #define TASK_1
 #define Print { if(res == 1) cout << "True\n"; else cout << "False\n"; }
 template <typename T>
-bool Less(T value1, T value2)
+bool less(T value1, T value2)
 {
 	return value1 < value2;
 }

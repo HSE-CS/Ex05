@@ -4,12 +4,12 @@ using namespace std;
 int main()
 {
 	bool res;
-	res = Less(5, 6);
+	res = less(5, 6);
 	Print
-	res = Less("abcd", "abcd");
+	res = less("abcd", "abcd");
 	Print
-	res = Less(5.5, 5.5);
+	res = less(5.5, 5.5);
 	Print
-	res = Less('A', 'B');
+	res = less('A', 'B');
 	Print
 }
