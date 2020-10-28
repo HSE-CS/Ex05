@@ -6,14 +6,12 @@
 
 using namespace std;
 
-namespace Ex05 {
 
-    template<class T, int length>
-    int minArr(T (&array)[length]) {
-        for (int i = 1; i < length; ++i) {
-            array[0] = min(array[0], array[i]);
-        }
-        return array[0];
+template<class T, int length>
+int minArr(T (&array)[length]) {
+    for (int i = 1; i < length; ++i) {
+        array[0] = min(array[0], array[i]);
     }
-
+    return array[0];
 }
+
