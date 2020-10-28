@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <cstring>
-#include "../include/task1.h"
+#include "task1.h"
 
 int main() {
     int n1 = 5;

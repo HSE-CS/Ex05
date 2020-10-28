@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "../include/task3.h"
+#include "task3.h"
 
 
 int main() {
