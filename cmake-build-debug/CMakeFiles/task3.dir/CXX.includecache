@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/task2.h
+../include/task3.h
 bits/stdc++.h
 -
 
-C:/Users/User/Desktop/Projects/EX05/Ex05/src/main2.cpp
-task2.h
-C:/Users/User/Desktop/Projects/EX05/Ex05/src/task2.h
+C:/Users/User/Desktop/Projects/EX05/Ex05/src/main3.cpp
+task3.h
+C:/Users/User/Desktop/Projects/EX05/Ex05/src/task3.h
 
