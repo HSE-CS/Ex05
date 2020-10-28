@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <string.h>
 
-//using namespace std;
-
 int main() {
 	std::cout << less(5, 8) << "\n" ;
 
