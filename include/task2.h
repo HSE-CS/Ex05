@@ -2,8 +2,8 @@
 // Created by jmax on 27.10.2020.
 //
 
-#ifndef EX_05_TASK1_H
-#define EX_05_TASK1_H
+#ifndef TASK2_H
+#define TASK2_H
 
 template<class T> T averageArr(T* arr, size_t size) {
     T sum = 0;
