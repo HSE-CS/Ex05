@@ -1,3 +1,4 @@
+#include <cstddef>
 template<typename T>
 T averageArr(T *a, int n) {
     T sum = 0;

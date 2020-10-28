@@ -1,4 +1,5 @@
 #include "task2.h"
+#include <cstddef>
 #include <iostream>
 
 int main() {

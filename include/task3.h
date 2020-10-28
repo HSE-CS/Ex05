@@ -1,3 +1,4 @@
+#include <cstddef>
 template<typename T, size_t n>
 T minArr(T (&a)[n]) {
     T min = a[0];
