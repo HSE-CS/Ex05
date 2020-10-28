@@ -6,8 +6,8 @@
 
 signed main() {
 
-    int array[] = {425, 234, 21331, 38848, 99944};
-    cout << Ex05::averageArr(array, 5) << '\n';
+//    int array[] = {425, 234, 21331, 38848, 99944};
+//    cout << Ex05::averageArr(array, 5) << '\n';
 
     return 0;
 }
