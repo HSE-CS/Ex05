@@ -10,6 +10,6 @@ template<class T> T averageArr(T* arr, unsigned int size) {
     for (int i = 0; i < size; i++) {
         sum += arr[i];
     }
-    return sum/size;
+    return sum/(T)size;
 }
 #endif //EX_05_TASK1_H

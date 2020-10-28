@@ -7,9 +7,9 @@
 
 template <class T, unsigned int size> T minArr(T(&arr)[size]) {
     T min = arr[0];
-    for (T item : arr) {
-        if (min > item)
-            min = item;
+    for (unsigned int i = 0; i < size; i++) {
+        if (min > arr[i])
+            min = arr[i];
     }
     return min;
 }
