@@ -4,9 +4,15 @@
 #include <cstring>
 #include <string>
 
-template<class T> void minArr(T & arg)
+template<class T> int minArr(T& a)
 {
-	cout<<typeid(arg).name()<<endl;
+	int min = a[0];
+	for (size_t i = 0; i < (sizeof(a) / sizeof(a[0])); ++i)
+	{
+		if (a[i] < min)
+			min = a[i];
+	}
+	return(min);
 }
 
 #endif
