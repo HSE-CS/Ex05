@@ -1,11 +1,6 @@
 #include <iostream>
+#include "task1.h"
 using namespace std;
-#define Print { if(res == 1) cout << "True\n"; else cout << "False\n"; }
-template <typename T>
-bool Less(T value1, T value2)
-{
-	return value1 < value2;
-}
 int main()
 {
 	bool res;
