@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstring>
+#ifndef TASK2_H
+#define TASK2_H
 
 template<typename T, typename S>
 T averageArr(T* a, S size) {
@@ -12,4 +14,4 @@ T averageArr(T* a, S size) {
 	
 	return sum;
 }
-
+#endif

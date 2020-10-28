@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstring>
+#ifndef TASK1_H
+#define TASK1_H
 
 template<class T>
 bool less(T a, T b) {
@@ -21,3 +23,4 @@ bool less<char*>(char* a, char* b) {
 		return false;
 	}
 }
+#endif
