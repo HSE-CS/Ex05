@@ -9,4 +9,3 @@ T minArr(T (&a)[n]) {
     }
     return min;
 }
-

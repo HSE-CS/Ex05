@@ -13,4 +13,3 @@ bool less(char *a, char *b) {
         return false;
     }
 }
-
