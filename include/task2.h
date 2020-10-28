@@ -4,7 +4,7 @@
 #include <cstring>
 #include <string>
 
-template<class T> bool averageArr(T & arg)
+template<class T> void averageArr(T & arg)
 {
 	cout<<typeid(arg).name()<<endl;
 }

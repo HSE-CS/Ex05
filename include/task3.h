@@ -4,7 +4,7 @@
 #include <cstring>
 #include <string>
 
-template<class T> bool minArr(T & arg)
+template<class T> void minArr(T & arg)
 {
 	cout<<typeid(arg).name()<<endl;
 }
