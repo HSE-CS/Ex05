@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
+#include <cstring>
 
 int main() {
 	std::cout << less(5, 8) << "\n" ;
