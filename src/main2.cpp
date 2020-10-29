@@ -9,6 +9,6 @@ using namespace std;
 
 int main (){
 	char arr[SIZE]={ 'r','o','o','t' };
-	cout << averageArr(*arr, SIZE);
+	cout << averageArr(arr, SIZE);
 	return 0;
 }

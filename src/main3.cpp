@@ -13,7 +13,7 @@ using namespace std;
 
 int main() 
 {
-	int arr[SIZE]{0,-5,6,8,25};
+	int arr[SIZE]={0,-5,6,8,25};
 	cout << minArr(arr);
 	return 0;
 }
