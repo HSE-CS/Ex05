@@ -8,6 +8,6 @@ template <class T> double averageArr(T* mass, int size);
 	{
 		summ += mass[x];
 	}
-	return float(summ) / size;
+	return float(summ) / size
 }
 #endif // !TASK_2
