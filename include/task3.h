@@ -2,7 +2,7 @@
 #ifndef TASK_3
 #define TASK_3
 const int size_world = 10;
-template<class T> T MinArr(T* mass)
+template<class T> T minArr(T* mass)
 {
 	int size = size_world;
 	T elenent_min = mass[0];
