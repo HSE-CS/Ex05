@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include "task2.h"
 using namespace std;
 
