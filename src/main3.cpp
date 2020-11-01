@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-	const int size = size_world;
-	int my_mass[size] = { 8,4,3,4,5,2,0,7,5,1 };
-	cout <<" min value: " << minArr(my_mass) <<endl;
+	const int size = 6;
+	int val[size] = { 4, 3, 2, 2, 2, -1 };
+	cout << minArr(val);
 }
