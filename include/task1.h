@@ -7,6 +7,10 @@ bool less(T value1, T value2)
 {
 	return value1 < value2;
 }
+template<> bool less<const char*>(const char* a, const char* b)
+{
+	return (strcmp(a, b) < 0);
+}
 #endif // !TASK_1
 
 

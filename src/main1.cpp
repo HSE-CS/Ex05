@@ -7,10 +7,6 @@ int main()
 {
 	bool res;
 	res = less(5, 6);
-	template<> bool less<const char*>(const char* a, const char* b)
-	{
-		return (strcmp(a, b) < 0);
-	}
 	Print
 	res = less("abcd", "abcd");
 	Print
