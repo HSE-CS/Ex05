@@ -1,12 +1,11 @@
 #include <iostream>
-
 template<typename T>
-float averageArr(T tar, int size)
+T averageArr(T* tar, int size)
 {
-    float res=0;
-    for(int i=0;i<size;i++)
+    T res = 0;
+    for(int i=0; i<size; i++)
     {
-        res+=tar[i];
+        res += tar[i];
     }
-    return res;
+    return res/size;
 }

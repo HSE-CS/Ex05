@@ -3,8 +3,7 @@
 
 int main()
 {
-    char mass[size] = {'k','b','f','a','g'};
-    float res = averageArr(mass,size);
-    std::cout << res;
+    int mass[size] = {1,2,3,4,5};
+    std::cout << averageArr(mass,size);
     return 0;
 }
