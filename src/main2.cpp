@@ -7,6 +7,5 @@ int main()
         int result = averageArr(val, n);
         std::cout << result; //2
 
-
         return 0;
 };

@@ -1,12 +1,16 @@
 #include <iostream>
 #ifndef TASK1_TASK3_H
 #define TASK1_TASK3_H
-template<class T> int minArr(T & val)
+template<class T, std::size_t n> T minArr(T (& val)[n])
 {
-    std::cout << sizeof(val) << "\n";
-    std::cout << typeid(val).name() << "\n";
-    return 1;
+    T min = val[0];
+    for (int i = 0; i < n; i++) {
+        if (val[i] < min) min = val[i];
+    }
+
+    return min;
 
 }
 
 #endif //TASK1_TASK3_H
+
