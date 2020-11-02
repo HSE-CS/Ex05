@@ -2,7 +2,7 @@
 #define TASK2_H
 
 #include <string.h>
-
+#include <string>
 
 template<class T>
 T averageArr(T* a, unsigned int size)
