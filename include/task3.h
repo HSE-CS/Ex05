@@ -2,15 +2,15 @@
 #include<iostream>
 
 template < typename T >
-auto minArr(T& mas)
+auto minArr(T &array )
 {
 
-	auto min = mas[0];
+	auto minimal = array[0];
 
-	for (int i = 1; i < sizeof(mas) / sizeof(mas[0]); i++)
+	for (int i = 1; i < sizeof(array) / sizeof(array[0]); i++)
 	{
-		if (mas[i] < min) min = mas[i];
+		if (array[i] < minimal) minimal = array[i];
 
 	}
-	return min;
+	return minimal;
 }

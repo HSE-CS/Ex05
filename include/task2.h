@@ -1,15 +1,16 @@
 #pragma once
 
 template <typename T>
-T averageArr(const T* mas, int size)
+T averageArr(const T* array, int length)
 {
 	T s = 0;
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < length; i++)
 	{
 
-		s += mas[i];
+		s += array[i];
 
 	}
-	return s / size;
+	T average_value =  s / length;
+	return average_value;
 
 }

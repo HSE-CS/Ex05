@@ -5,5 +5,5 @@ using namespace std;
 
 int main()
 {
-	cout << lesst(3, 5);
+	return 0;
 }
