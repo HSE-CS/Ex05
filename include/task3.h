@@ -1,7 +1,7 @@
 #include <iostream>
 #ifndef TASK1_TASK3_H
 #define TASK1_TASK3_H
-template<class T, std::size_t n> T minArr(T (& val)[n])
+template<class T, int n> T minArr(T (& val)[n])
 {
     T min = val[0];
     for (int i = 0; i < n; i++) {
