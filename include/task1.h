@@ -1,11 +1,19 @@
+//
+// Created by sharg on 27.10.2020.
+//
+
+#ifndef TASK1_TASK1_H
+#define TASK1_TASK1_H
 #include <typeinfo>
 #include <cstring>
 template<class T>
-bool less(T firstNumb, T secondNumb)
+bool less(T firstNumber, T secondNumber)
 {
-    return firstNumb < secondNumb;
+    return firstNumber < secondNumber;
 }
-template<> bool less <const char*>(const char* string1, const char* string2)
+template<>
+bool less<const char*>(const char* firsrString, const char* secondString)
 {
-    return strcmp(string1, string2) < 0;
+    return strcmp(firsrString, secondString) < 0;
 }
+#endif //TASK1_TASK1_H
