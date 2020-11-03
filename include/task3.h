@@ -8,6 +8,10 @@
 
 // #include <bits/stdc++.h>
 
+int min(int a, int b) {
+    return (a < b) ? a : b;
+}
+
 
 template<class T>
 int minArr(T &array) {
