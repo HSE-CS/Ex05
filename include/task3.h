@@ -6,11 +6,7 @@
 #ifndef TASK1_TASK3_H
 #define TASK1_TASK3_H
 
-#include <bits/stdc++.h>
-
-#include <iterator>
-
-using namespace std;
+// #include <bits/stdc++.h>
 
 
 template<class T>
@@ -18,8 +14,8 @@ int minArr(T &array) {
     int n = sizeof(array) / sizeof(array[0]);
     int min_elem = (array)[0];
 
-    for (size_t i = 1; i < n; ++i) {
-        min_elem = min(min_elem, (array)[i]);
+    for (int i = 1; i < n; ++i) {
+        min_elem = min(min_elem, array[i]);
     }
 
     return min_elem;

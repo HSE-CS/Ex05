@@ -4,9 +4,3 @@
 CMakeFiles/task1.dir/src/main1.cpp.o: ../include/task1.h
 CMakeFiles/task1.dir/src/main1.cpp.o: ../src/main1.cpp
 
-CMakeFiles/task1.dir/src/main2.cpp.o: ../include/task2.h
-CMakeFiles/task1.dir/src/main2.cpp.o: ../src/main2.cpp
-
-CMakeFiles/task1.dir/src/main3.cpp.o: ../include/task3.h
-CMakeFiles/task1.dir/src/main3.cpp.o: ../src/main3.cpp
-

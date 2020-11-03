@@ -5,7 +5,9 @@
 #ifndef TASK1_TASK1_H
 #define TASK1_TASK1_H
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+
+#include <cstring>
 
 
 template<class T>

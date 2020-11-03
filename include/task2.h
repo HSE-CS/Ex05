@@ -6,13 +6,11 @@
 #ifndef TASK1_TASK2_H
 #define TASK1_TASK2_H
 
-#include <bits/stdc++.h>
-
-using namespace std;
+// #include <bits/stdc++.h>
 
 
 template<class T>
-int averageArr(T *array, const size_t n) {
+int averageArr(T *array, int n) {
     int answer = 0;
     for (int i = 0; i < n; ++i) {
         answer += array[i];

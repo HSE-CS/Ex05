@@ -6,11 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/toliman/Projects/HSE-CS/EX05/Ex05/include/task1.h
-bits/stdc++.h
--
-
-/home/toliman/Projects/HSE-CS/EX05/Ex05/src/main1.cpp
-../include/task1.h
-/home/toliman/Projects/HSE-CS/EX05/Ex05/include/task1.h
-

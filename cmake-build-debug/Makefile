@@ -202,7 +202,6 @@ src/main2.o: src/main2.cpp.o
 
 # target to build an object file
 src/main2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/main2.cpp.o
 .PHONY : src/main2.cpp.o
 
@@ -212,7 +211,6 @@ src/main2.i: src/main2.cpp.i
 
 # target to preprocess a source file
 src/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/main2.cpp.i
 .PHONY : src/main2.cpp.i
 
@@ -222,7 +220,6 @@ src/main2.s: src/main2.cpp.s
 
 # target to generate assembly for a file
 src/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/main2.cpp.s
 .PHONY : src/main2.cpp.s
 
@@ -232,7 +229,6 @@ src/main3.o: src/main3.cpp.o
 
 # target to build an object file
 src/main3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main3.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/src/main3.cpp.o
 .PHONY : src/main3.cpp.o
 
@@ -242,7 +238,6 @@ src/main3.i: src/main3.cpp.i
 
 # target to preprocess a source file
 src/main3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main3.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/src/main3.cpp.i
 .PHONY : src/main3.cpp.i
 
@@ -252,7 +247,6 @@ src/main3.s: src/main3.cpp.s
 
 # target to generate assembly for a file
 src/main3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/main3.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/src/main3.cpp.s
 .PHONY : src/main3.cpp.s
 
