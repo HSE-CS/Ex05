@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/toliman/Projects/HSE-CS/EX05/Ex05/src/main3.cpp" "/home/toliman/Projects/HSE-CS/EX05/Ex05/cmake-build-debug/CMakeFiles/task3.dir/src/main3.cpp.o"
+=======
+  "C:/Users/User/Desktop/Projects/EX05/Ex05/src/main3.cpp" "C:/Users/User/Desktop/Projects/EX05/Ex05/cmake-build-debug/CMakeFiles/task3.dir/src/main3.cpp.obj"
+>>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

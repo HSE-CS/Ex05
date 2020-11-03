@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ToolSet: 1.0 (local)Options: 
+=======
+ToolSet: 5.0 (local)@C:\MinGW
+Options: 
+>>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1
 
 Options:

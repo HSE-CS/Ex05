@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/toliman/Projects/HSE-CS/EX05/Ex05/include/task3.h
 bits/stdc++.h
 -
@@ -15,4 +16,13 @@ iterator
 /home/toliman/Projects/HSE-CS/EX05/Ex05/src/main3.cpp
 ../include/task3.h
 /home/toliman/Projects/HSE-CS/EX05/Ex05/include/task3.h
+=======
+../include/task3.h
+bits/stdc++.h
+-
+
+C:/Users/User/Desktop/Projects/EX05/Ex05/src/main3.cpp
+task3.h
+C:/Users/User/Desktop/Projects/EX05/Ex05/src/task3.h
+>>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1
 
