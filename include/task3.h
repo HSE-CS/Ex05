@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 //
 // Created by toliman on 27.10.2020.
@@ -30,21 +29,3 @@ int minArr(T &array) {
 
 
 #endif //TASK1_TASK3_H
-=======
-//
-// Created by User on 29.10.2020.
-//
-
-#include <bits/stdc++.h>
-
-using namespace std;
-
-template<class T, int length>
-T minArr(T (&array)[length]) {
-    for (int i = 1; i < length; ++i) {
-        array[0] = min(array[0], array[i]);
-    }
-    return array[0];
-}
-
->>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1

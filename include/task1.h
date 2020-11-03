@@ -23,23 +23,4 @@ bool less(const char *first, const char *second) {
 
 
 #endif //TASK1_TASK1_H
-=======
-// Created by User on 29.10.2020.
-//
 
-#include <bits/stdc++.h>
-
-using namespace std;
-
-
-template<class T>
-bool less(T fi, T se) {
-    return fi < se;
-}
-
-template<>
-bool less(const char *fi, const char *se) {
-    return strcmp(fi, se) < 0;
-}
-
->>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1

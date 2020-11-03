@@ -1,5 +1,4 @@
 //
-<<<<<<< HEAD
 // Created by toliman on 27.10.2020.
 //
 
@@ -13,18 +12,3 @@ int main() {
     return 0;
 }
 
-
-=======
-// Created by User on 29.10.2020.
-//
-
-#include "task2.h"
-
-signed main() {
-
-//    int array[] = {425, 234, 21331, 38848, 99944};
-//    cout << Ex05::averageArr(array, 5) << '\n';
-
-    return 0;
-}
->>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1
