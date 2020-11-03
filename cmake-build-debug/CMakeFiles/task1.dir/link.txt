@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+/usr/bin/c++  -g -Wall -g  -rdynamic CMakeFiles/task1.dir/src/main1.cpp.o  -o task1 
+=======
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\task1.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\task1.dir/objects.a @CMakeFiles\task1.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wall -g   -Wl,--whole-archive CMakeFiles\task1.dir/objects.a -Wl,--no-whole-archive  -o task1.exe -Wl,--out-implib,libtask1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\task1.dir\linklibs.rsp
+>>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1

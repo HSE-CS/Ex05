@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+<<<<<<< HEAD
+/dataSources/
+=======
+/../../../../../../../../:\Users\User\Desktop\Projects\EX05\Ex05\.idea/dataSources/
+>>>>>>> a22aa6eae89f777ceabb50a830e1b6624d4fbab1
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

@@ -41,7 +41,7 @@ TEST(ex05,task3_1)
 	const size_t n = 6;
 	int val[n]{4, 3, 2, 2, 2, -1};
 	int result=Ex05::minArr(val);
-        int expected=-1;
-        EXPECT_EQ(expected, result);
+    int expected=-1;
+    EXPECT_EQ(expected, result);
 }
 
