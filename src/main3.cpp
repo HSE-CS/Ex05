@@ -1,5 +1,5 @@
 #include <iostream>
-#include "task3.h"
+#include "../include/task3.h"
 
 int main() {
     int arr[10];
