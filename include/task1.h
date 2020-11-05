@@ -1,14 +1,23 @@
 #include <iostream>
-#include <algorithm>
+template<typename T>
+bool Less(T a, T b){
+    if (a > b)
+        return true;
+    else
+        return false;
+}
 
-#endif //TASK1_TASK3_H
-template<typename T, int n>
-T minArr(T(&arr)[n]) {
-    T c = arr[0];
-    for (int i = 1; i < n; i++) {
-        if (c > arr[i]) {
-            c = arr[i];
+template<>
+bool Less(char* a, char* b) {
+    int i = 0;
+    while (a[i] != '\0' || b[i] != '\0') {
+        if (a[i] == b[i]) {
+            i++;
+            continue;
         }
+        if (a[i] > b[i])
+            return true;
+        else
+            return false;
     }
-    return c;
 }
