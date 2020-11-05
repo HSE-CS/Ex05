@@ -1,3 +1,5 @@
+#include <iostream>
+
 template <typename T>
     T averageArr(T *arr, unsigned int size){
 
