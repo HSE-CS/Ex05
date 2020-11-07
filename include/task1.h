@@ -1,9 +1,9 @@
 #ifndef TASK_1
 #define TASK_1
-
+#include<cstring>
 template< typename T>
 bool less(T a, T b) {
-	if (a - b > (T)(0.000000)) {
+	if (a - b < (T)(0.000000)) {
 		return true;
 	}
 	else {
@@ -12,7 +12,7 @@ bool less(T a, T b) {
 }
 
 template<> bool less<const char*>(const char* a, const char* b) {
-	return strcmp(a, b) > 0;
+	return strcmp(a, b) < 0;
 }
 
-#endi
+#endif

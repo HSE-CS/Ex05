@@ -7,7 +7,7 @@ T averageArr(T* A, unsigned int len) {
 	for (int i = 0; i < len; ++i) {
 		sum += A[i];
 	}
-	return sum \ (T)len;
+	return sum / (T)len;
 }
 
 #endif 

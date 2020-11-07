@@ -2,6 +2,7 @@
 #include "task1.h"
 
 
+
 int main() {
 	int a = 1, b = 2;
 	double c = 3.134, d = 3.1333;
