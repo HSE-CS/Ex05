@@ -1,13 +1,9 @@
 #include <iostream>
-#include "task2.h"
-
+#include "task3.h"
 
 int main() {
-	const size_t n = 6;
-	int a[n]{ 10, 2, 4, 8, 9, 5 };
-	std::cout << averageArr(a, n) << '\n';
-
-	float b[n]{ 10.0, 2., 4., 8., 9., 5. };
-	std::cout << averageArr(a, n);
+	int I[] = { 1, 0, -4, 5, 100 };
+	double D[] = { 1.21, 0.98, -21.33, -101.33, 90.0 };
+	std::cout << minArr(I) << '\n' << minArr(D);
 	return 0;
 } 

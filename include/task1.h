@@ -1,17 +1,18 @@
-#ifndef TASK1_H
-#define TASK1_H
+#ifndef TASK_1
+#define TASK_1
 
-#include <string.h>
-#include <string>
-
-template<class S>
-bool less(S a, S b)
-{
-	return a < b;
-}
-template<> bool less<const char*>(const char* a, const char* b)
-{
-	return strcmp(a, b) < 0;
+template< typename T>
+bool less(T a, T b) {
+	if (a - b > (T)(0.000000)) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 
-#endif
+template<> bool less<const char*>(const char* a, const char* b) {
+	return strcmp(a, b) > 0;
+}
+
+#endi
