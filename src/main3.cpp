@@ -6,4 +6,5 @@ int main() {
     int arr[n]{ -1, 2, -3, 4, -5, 6, -7, 8 };
     std::cout << minArr(arr) << std::endl;
     return 0;
+    
 }
