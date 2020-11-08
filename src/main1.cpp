@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <stdio.h>
 #include <string.h>
 #include <cstring>
@@ -14,4 +15,12 @@ int main()
 	Print
 		res = less('A', 'B');
 	Print
+=======
+#include "task1.h"
+using namespace std;
+int main() {
+    cout << less(1,2) << endl;
+    cout << less("hello", "world!") << endl;
+    return 0;
+>>>>>>> 2ce3b7f6962f4fbc560a4d79681365483cd63024
 }
