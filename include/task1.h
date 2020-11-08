@@ -1,23 +1,29 @@
-#include <iostream>
-template<typename T>
-bool Less(T a, T b){
-    if (a > b)
-        return true;
-    else
-        return false;
+/*#include <iostream>
+
+template <typename T>
+bool less(T a, T b){
+    return (a < b);
 }
 
-template<>
-bool Less(char* a, char* b) {
+template <>
+bool less<const char*>(const char* a, const char* b) {
     int i = 0;
     while (a[i] != '\0' || b[i] != '\0') {
         if (a[i] == b[i]) {
             i++;
             continue;
         }
-        if (a[i] > b[i])
-            return true;
-        else
-            return false;
-    }
+        return (a[i] < b[i]);
+} */
+#include <cstring>
+
+template <typename T>
+bool less(T a, T b) {
+    return a < b;
+}
+
+template <>
+bool less<const char*> (const char* a, const char* b)
+{
+    return strcmp(a, b) < 0;
 }
