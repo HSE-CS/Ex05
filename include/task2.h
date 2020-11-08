@@ -12,7 +12,7 @@ template <class T> double averageArr(T* mass, int size)
 	return float(summ) / size;
 }
 #endif // !TASK_2
-=======
+
 #include <iostream>
 template <typename T>
 double averageArr(T * array, size_t size){

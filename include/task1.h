@@ -13,7 +13,7 @@ template<> bool less<const char*>(const char* a, const char* b)
 	return (strcmp(a, b) < 0);
 }
 #endif // !TASK_1
-=======
+
 #include<iostream>
 #include <cstring>
 template<typename T>
