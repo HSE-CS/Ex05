@@ -13,4 +13,5 @@ int minArr(T (& array) [SIZE]) {
         if (array[i] < min)  min = array[i];
     return min;
 }
+
 #endif //TASK1_TASK3_H
