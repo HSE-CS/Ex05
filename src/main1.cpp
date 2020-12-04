@@ -9,7 +9,7 @@ int main() {
 	std::cout << result << std::endl;
 
 	char symbol_1 = 'x', symbol_2 = 'a';
-	bool result = less(symbol_1, symbol_2);
+	result = less(symbol_1, symbol_2);
 	std::cout << result << std::endl;
 
 	const char* string_1 = "dada";

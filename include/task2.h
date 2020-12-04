@@ -7,9 +7,9 @@ double averageArr(T* a, T2 b)
 {
 	T summa = 0;
 	for (unsigned int i = 0; i < b; i++) {
-		sum += *(a + i);
+		summa += *(a + i);
 	}
-	answer = (double)(sum / b);
+	double answer = (double)(summa / b);
 	return answer;
 }
 
