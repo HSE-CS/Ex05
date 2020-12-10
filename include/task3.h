@@ -18,5 +18,4 @@ T minArr(T(&arr)[n]) {
     }
     return c;
 }
-
 #endif //TASK1_TASK3_H
